@@ -54,3 +54,6 @@ input, select {
 .tertiary {
     background-color: #699ce7;
 }
+.input-label {
+    margin-bottom: 10px;
+}

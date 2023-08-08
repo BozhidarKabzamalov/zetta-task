@@ -18,7 +18,7 @@
 </script>
 
 <template>
-    <p>{{ label }}</p>
+    <p class="input-label">{{ label }}</p>
     <div class="checkbox-input-container">
         <div class="checkbox-input" v-for="option in options" v-bind:key="option">
             <input type="checkbox" :id="option" :value="option" @input="$emit('update:modelValue', updatedModelValue($event.target.value))">
@@ -36,8 +36,5 @@
     }
     .checkbox-input > input {
         margin-right: 5px;
-    }
-    p {
-        margin-bottom: 10px;
     }
 </style>
