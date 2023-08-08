@@ -1,7 +1,56 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: normal;
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+    width: 1200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table, th, td {
+    border: 1px solid rgb(44, 44, 44);
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: #699ce7;
+    color: #ffffff;
+    text-align: left;
+}
+
+th, td {
+    padding: 5px
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+input, select {
+    padding: 5px;
+}
+
+.base-button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    color: #ffffff;
+}
+.primary {
+    background-color: #5aae4c;
+}
+.secondary {
+    background-color: #cc3e3e;
+}
+.tertiary {
+    background-color: #699ce7;
 }
