@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
 }
 
 table {
@@ -30,12 +31,17 @@ th, td {
     padding: 5px
 }
 
+tbody tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+
 tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
+    background-color: #e2e2e2;
 }
 
 input, select {
-    padding: 5px;
+    padding: 6px 12px;
+    border: 1px solid #8e98a2;
 }
 
 .base-button {
